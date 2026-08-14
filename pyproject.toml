@@ -1,0 +1,23 @@
+[project]
+name = "nanozymes-ood-benchmark"
+version = "0.1.0"
+description = "Leakage-controlled OOD benchmark for nanozyme peroxidase Km prediction."
+requires-python = ">=3.10"
+dependencies = [
+  "catboost==1.2.5",
+  "matplotlib==3.8.4",
+  "networkx==3.3",
+  "numpy==1.26.4",
+  "openpyxl==3.1.2",
+  "pandas==2.2.2",
+  "scikit-learn==1.4.2",
+  "scipy==1.13.1",
+  "seaborn==0.13.2",
+  "pytest==8.2.2",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

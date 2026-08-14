@@ -1,0 +1,6 @@
+{
+  "split_type": "formula_group",
+  "grouping_variable": "formula_group_id",
+  "repeat": 5,
+  "seed": 2031
+}

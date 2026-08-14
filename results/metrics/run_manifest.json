@@ -1,0 +1,39 @@
+{
+  "manuscript_title": "Prospective External Validation of Composition-Based Peroxidase-like Nanozyme Kmapp Models: No Detectable Advantage over a Substrate-Median Baseline",
+  "target": "log10(Km_common_molar)",
+  "primary_metric": "mae",
+  "random_seed": 2026,
+  "repeats": 20,
+  "test_size": 0.2,
+  "min_composition_test_n": 20,
+  "split_types": [
+    "random",
+    "source_group",
+    "formula_group",
+    "composition_cluster",
+    "leakage_graph"
+  ],
+  "main_models": [
+    "median",
+    "elasticnet",
+    "extratrees",
+    "catboost"
+  ],
+  "predefined_main_model": "catboost",
+  "primary_comparisons": [
+    "random_vs_source_group",
+    "random_vs_formula_group",
+    "random_vs_composition_cluster",
+    "random_vs_leakage_graph"
+  ],
+  "conformal_alpha": 0.1,
+  "few_shot_repeats": 100,
+  "few_shot_levels": [
+    0,
+    5,
+    10,
+    20
+  ],
+  "minimum_remaining_test_n_for_few_shot": 50,
+  "data_path": "data/internal_modeling_curated_992.csv"
+}

@@ -1,0 +1,11 @@
+{
+  "primary_metric": "mae",
+  "target": "log10(Km_common_molar)",
+  "comparisons": [
+    "random_vs_source_group",
+    "random_vs_formula_group",
+    "random_vs_composition_cluster",
+    "random_vs_leakage_graph"
+  ],
+  "main_model": "catboost predefined before test evaluation"
+}

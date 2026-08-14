@@ -1,0 +1,5 @@
+step,rows,dropped,reason
+raw_rows,1210,0,input
+retain_peroxidase_like,1002,208,activity label must indicate peroxidase-like behavior
+valid_km,992,10,Km must convert to positive molar concentration
+final_modeling_rows,992,0,final cohort after deterministic target cleaning

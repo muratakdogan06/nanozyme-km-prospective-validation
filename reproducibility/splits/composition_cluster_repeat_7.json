@@ -1,0 +1,61 @@
+{
+  "split_type": "composition_cluster",
+  "algorithm": "KMeans",
+  "distance_metric": "euclidean_on_standardized_composition_descriptors",
+  "candidate_k_values": [
+    3,
+    4,
+    5,
+    6,
+    8
+  ],
+  "selected_k": 5,
+  "k_selection_rule": "highest train-only silhouette among k with min train cluster size constraint",
+  "fallback_rule": "if no k satisfies min size, use best available/default and largest assigned test cluster",
+  "chosen_ood_cluster": 4,
+  "test_n": 72,
+  "underpowered_fold": false,
+  "cluster_diagnostics": [
+    {
+      "k": 3,
+      "silhouette": 0.29972325990846543,
+      "min_train_cluster_size": 150
+    },
+    {
+      "k": 4,
+      "silhouette": 0.3406923081809851,
+      "min_train_cluster_size": 93
+    },
+    {
+      "k": 5,
+      "silhouette": 0.3721005265045864,
+      "min_train_cluster_size": 71
+    },
+    {
+      "k": 6,
+      "silhouette": 0.3775746963939429,
+      "min_train_cluster_size": 4
+    },
+    {
+      "k": 8,
+      "silhouette": 0.4022687999586735,
+      "min_train_cluster_size": 3
+    }
+  ],
+  "train_cluster_sizes": {
+    "4": 294,
+    "1": 148,
+    "3": 148,
+    "2": 132,
+    "0": 71
+  },
+  "heldout_assigned_cluster_sizes": {
+    "4": 72,
+    "1": 43,
+    "3": 39,
+    "2": 29,
+    "0": 16
+  },
+  "repeat": 7,
+  "seed": 2033
+}

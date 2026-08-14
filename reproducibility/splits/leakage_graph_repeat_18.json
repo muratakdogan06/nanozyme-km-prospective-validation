@@ -1,0 +1,13 @@
+{
+  "split_type": "leakage_graph",
+  "grouping_variable": "leakage_graph_component_id",
+  "target_test_n": 198,
+  "test_n": 198,
+  "component_balancing_rule": "hold out graph components without train/test overlap; components larger than target test size are kept in train when smaller components can satisfy the test-size constraint",
+  "n_groups_total": 137,
+  "n_groups_test": 38,
+  "largest_group_n": 502,
+  "n_oversized_groups_kept_train": 1,
+  "repeat": 18,
+  "seed": 2044
+}

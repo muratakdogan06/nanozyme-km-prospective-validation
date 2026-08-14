@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite the associated manuscript and repository release."
+type: software
+title: "Nanozyme Km Prospective Validation Benchmark"
+authors:
+  - family-names: "Akdoğan"
+    given-names: "Murat"
+version: "1.0.0"
+date-released: "2026-08-14"
+license: MIT
+keywords:
+  - nanozyme
+  - apparent Michaelis constant
+  - prospective external validation
+  - out-of-distribution evaluation
+  - machine learning
+  - conformal prediction
+  - dependency-aware benchmarking
+abstract: >-
+  Reproducibility package containing curated data, analysis code, archived
+  split assignments, metrics, configuration files, and automated tests for
+  prospective external validation of composition-based peroxidase-like
+  nanozyme apparent Km prediction models.
+preferred-citation:
+  type: article
+  title: "Prospective External Validation of Composition-Based Peroxidase-like Nanozyme Kmapp Models: No Detectable Advantage over a Substrate-Median Baseline"
+  authors:
+    - family-names: "Akdoğan"
+      given-names: "Murat"
+  year: 2026
