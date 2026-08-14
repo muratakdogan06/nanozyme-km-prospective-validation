@@ -8,6 +8,7 @@ authors:
 version: "1.0.0"
 date-released: "2026-08-14"
 license: MIT
+repository-code: "https://github.com/muratakdogan06/nanozyme-km-prospective-validation"
 keywords:
   - nanozyme
   - apparent Michaelis constant
